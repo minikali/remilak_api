@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legal_informations",
+  "info": {
+    "singularName": "legal-information",
+    "pluralName": "legal-informations",
+    "displayName": "Legal information"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    }
+  }
+}
